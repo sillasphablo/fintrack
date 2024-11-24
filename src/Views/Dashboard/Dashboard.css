@@ -1,0 +1,189 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw; /* Ocupará toda a largura da tela */
+    background-image: url('../../Assets/cloud.webp'); /* Substitua pelo caminho correto da imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição */
+    /*filter: blur(5px);  Aplica o efeito de desfoque */
+  }
+  .login-container {
+    background: white; /* Fundo branco para o contêiner */
+    width: 50%; /* Largura fixa */
+    height: 70%;
+
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Elevação */
+    text-align: center;
+  }
+  
+  .container-login {
+    position: relative;
+    width: 100%;
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+}
+.dashboard {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .top-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  
+  .button_showing {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .button_insert {
+    padding: 5px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .receita {
+    background-color: #36a2eb;
+    color: white;
+  }
+  
+  .adicionar {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .despesa {
+    background-color: #ff6384;
+    color: white;
+  }
+  
+  .chart-container {
+    margin-top: 50px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
+  }
+  
+  .radio-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .radio-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+  }
+  
+  .radio-button.active {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+    /* Barra Superior */
+    .top-bar {
+        background-color: #f5f5f5;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .circular-icon {
+        width: 40px;
+        height: 40px;
+        background-color: #ccc;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+        color: #555;
+      }
+      
+      .circular-icon:hover {
+        background-color: #bbb;
+      }
+
+        /* Barra Lateral */
+  .sidebar {
+    position: fixed;
+    width: 250px;
+    height: 70%;
+    background-color: #f5f5f5;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    z-index: 1000;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .sidebar-icon {
+    background-color: #ccc;
+    cursor: default;
+  }
+  
+  .sidebar-divider {
+    margin: 20px 0;
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+  }
+  
+  .sidebar-options button {
+    background: none;
+    border: none;
+    text-align: left;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .sidebar-options button:hover {
+    color: #333;
+  }
+  
